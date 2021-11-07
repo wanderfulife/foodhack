@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <button type="button" onclick="alert('Hello world!')">Click Me Motherfucker!</button>
+    <button type="button" onclick="alert('Hello world!')">Click Me Motherfucker et la ca marche?!</button>
   </div>
 </template>
 
