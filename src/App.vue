@@ -1,7 +1,7 @@
 <template>
+
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Ayyy Welcome to the moneyyyy"/>
+    <HelloWorld msg="Welcome"/>
   </div>
 </template>
 
@@ -17,6 +17,8 @@ export default {
 </script>
 
 <style>
+
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -24,6 +26,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   background-color: #2a2e53;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 </style>
