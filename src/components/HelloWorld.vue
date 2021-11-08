@@ -1,13 +1,6 @@
 <template>
   <div class="hello">
-    <div class="row">
-      <div class="column1">
-        <h1>{{ msg }}</h1>
-      </div>
-      <div class="column2">
-        <button type="button" onclick="alert('Hello world!')">Contact</button>
-      </div>
-    </div>
+    <button type="button"  class="rounded-md p-2 bg-purple-400 text-white" onclick="ethereum.request({ method: 'eth_requestAccounts' })">CONTACT</button>
   </div>
 </template>
 
@@ -23,15 +16,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.column1 {
-  float: left;
-  width: 10%;
-}
-
-.column2 {
-  float: right;
-  width: 10%;
-}
 button {
   background-color: #ca06e7;
   color: white;

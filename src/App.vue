@@ -1,7 +1,7 @@
 <template>
 
   <div id="app">
-    <HelloWorld msg="Welcome"/>
+    <HelloWorld class="flex w-screen h-screen justify-center items-center" msg="Welcome"/>
   </div>
 </template>
 
